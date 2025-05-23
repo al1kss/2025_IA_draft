@@ -32,5 +32,5 @@ This proposed solution addresses Mrs. X’s goal of making classes more engaging
 10. Performance: Pages and visualizations load within 5 seconds under normal network conditions.
 11. Data Persistence: Store user data, image metadata, and transect results in SQLite to prevent data loss.
 12. Accessibility: Ensure compatibility with Chrome and Firefox on school or personal devices without extra software.
-
+has to start from the verd. It allows ........ most of them are not valid
 
