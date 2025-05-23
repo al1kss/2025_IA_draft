@@ -19,3 +19,18 @@ The front-end will be styled using CSS with minimal JavaScript to handle dynamic
 
 This proposed solution addresses Mrs. X’s goal of making classes more engaging by providing a platform that supports hands-on learning, streamlines data collection and analysis, and ensures security through a controlled user environment. The use of Flask, SQLite, Google Maps API, and Matplotlib provides a robust yet manageable system tailored to the educational context, enabling students to connect theoretical ESS with practical field experience
 
+## Success Criteria
+1. Secure Login: Use SQLite with bcrypt hashing for secure user login, allowing only registered students and Mrs. X to access the platform.
+2. Admin Panel: Mrs. X’s admin panel enables viewing and deleting inappropriate images to maintain a safe educational environment.
+3. User Registration: Students register via a form, storing username, email, and hashed password in SQLite.
+4. Image Upload: Registered users upload species images; the system extracts GPS coordinates from EXIF metadata.
+5. Google Maps: Display species locations on Google Maps with markers showing GPS coordinates from images.
+6. Transect Analysis: Support quadrant transect sampling with Matplotlib-generated graphs, kite diagrams, and stats (mean, standard deviation, max, min).
+7. Data Validation: Validate image metadata for GPS data and ensure transect data is numeric and valid.
+8. User Interface: Provide a CSS-styled, user-friendly interface with minimal JavaScript for form and map interactions.
+9. Admin Reports: Mrs. X can download image and transect data reports in CSV format for classroom use.
+10. Performance: Pages and visualizations load within 5 seconds under normal network conditions.
+11. Data Persistence: Store user data, image metadata, and transect results in SQLite to prevent data loss.
+12. Accessibility: Ensure compatibility with Chrome and Firefox on school or personal devices without extra software.
+
+
